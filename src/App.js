@@ -25,7 +25,7 @@ class App extends Component {
             <div>即将跳转至主站</div>
             <div className="btn_container">
               <wired-button style={{ "marginTop": "10px" }} onClick={()=>this._goPage("https://sszsj.top/")}>鼠鼠在碎觉(默认)</wired-button>
-              <wired-button style={{ "marginTop": "10px" }} onClick={()=>this._goPage("http://moli.sszsj.top/")}> 墨黎集(壁纸收藏) </wired-button>
+              <wired-button style={{ "marginTop": "10px" }} onClick={()=>this._goPage("https://www.sszsj.top/pages/cichic/")}> 产品表格下载工具 </wired-button>
               <wired-button style={{ "marginTop": "10px" }} onClick={()=>this._goPage("https://www.sszsj.top/pages/startdoing/index.html")}>开始XX表情生成器</wired-button>
             </div>
           </wired-card>
