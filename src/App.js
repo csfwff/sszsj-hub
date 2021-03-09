@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import "wired-card"
 import "wired-button"
 import "wired-progress"
+import "wired-link"
 import './App.css';
 
 class App extends Component {
@@ -35,6 +36,8 @@ class App extends Component {
           </div>
           <wired-progress value={this.state.progress} style={{ "width": "70vmin" }}></wired-progress>
           <div style={{"marginTop":"10px"}}></div>
+          <div>我是不慎落入世界的一滴水墨</div>
+          <wired-link href="http://beian.miit.gov.cn" target="_blank" >浙ICP备19040888号-1</wired-link>
         </div>
       </div>
     );
